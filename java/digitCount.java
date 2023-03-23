@@ -1,4 +1,4 @@
-package WIL.basic;
+package WIL.java;
 
 public class digitCount {
     public static int[] solution(String s) {
@@ -13,7 +13,7 @@ public class digitCount {
         int[] result = solution("1233345");
         for (int i = 0; i < result.length; i++) {
             System.out.println(i+" 출현 개수 : " + result[i]);
-            /*
+            /* input : 1233345
             0 출현 개수 : 0
             1 출현 개수 : 1
             2 출현 개수 : 1

@@ -1,4 +1,4 @@
-package WIL.basic;
+package WIL.java;
 
 class DBConnector {
     private String host;
