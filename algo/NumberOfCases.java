@@ -66,7 +66,7 @@ public class NumberOfCases {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3};
         System.out.println(Arrays.toString(arr));
-        
+
         System.out.println("Permutation");
         for (int r = 1; r <= arr.length; r++)
             permutation(arr, new int[r], new boolean[arr.length], 0, r);
