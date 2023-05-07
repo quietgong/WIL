@@ -28,13 +28,13 @@ public class TwoPointer {
         int left = 0;
         int right = arr.length - 1;
         StringBuilder sb = new StringBuilder();
-        while(left!=right){
-            if(arr[left]+arr[right]>x)
+        while (left != right) {
+            if (arr[left] + arr[right] > x)
                 right--;
-            else if(arr[left]+arr[right]<x)
+            else if (arr[left] + arr[right] < x)
                 left++;
-            
-            if(arr[left]+arr[right]==x){
+
+            if (arr[left] + arr[right] == x) {
                 sb.append(left).append(",");
                 sb.append(right);
                 break;
