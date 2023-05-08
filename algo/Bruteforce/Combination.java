@@ -1,4 +1,4 @@
-package WIL.algo;
+package WIL.algo.Bruteforce;
 
 import java.util.Arrays;
 
